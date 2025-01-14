@@ -6,5 +6,105 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Formulário</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img
+          src="assets/img/img-forms.svg"
+          alt="imagem ilustrnado Formulário"
+        />
+      </div>
+      <div class="form">
+        <section class="form-header">
+          <h1>Cadastre-se</h1>
+          <button class="enter-btn">Entrar</button>
+        </section>
+        <section class="input-group">
+          <div lass="input">
+            <label for="firstName">Primeiro Nome</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Digite seu primeiro nome"
+              required
+            />
+          </div>
+          <div lass="input">
+            <label for="lastName">Sobrenome</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Digite seu sobrenome"
+              required
+            />
+          </div>
+          <div lass="input">
+            <label for="email">E-mail</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="number">Celular</label>
+            <input
+              type="tel"
+              name="number"
+              id="number"
+              placeholder="(XX) XXXX-XXXX"
+              required
+            />
+          </div>
+          <div>
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="confirmPassword">Confirmar senha</label>
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              placeholder="Confirme sua senha"
+              required
+            />
+          </div>
+        </section>
+        <section class="genres">
+          <span>Gênero</span>
+          <div class="genres-group">
+            <label
+              ><input
+                type="radio"
+                name="genres"
+                value="female"
+              />Feminino</label
+            >
+            <label
+              ><input type="radio" name="genres" value="male" />Masculino</label
+            >
+            <label
+              ><input type="radio" name="genres" value="outhers" />Outros</label
+            >
+            <label
+              ><input type="radio" name="genres" value="undefined" />Prefiro não
+              dizer</label
+            >
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
