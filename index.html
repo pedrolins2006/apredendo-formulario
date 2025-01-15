@@ -17,10 +17,10 @@
       <div class="form">
         <section class="form-header">
           <h1>Cadastre-se</h1>
-          <button class="enter-btn">Entrar</button>
+          <div class="enter-btn"><a href="#">Entrar</a></div>
         </section>
         <section class="input-group">
-          <div lass="input">
+          <div class="input">
             <label for="firstName">Primeiro Nome</label>
             <input
               type="text"
@@ -30,7 +30,7 @@
               required
             />
           </div>
-          <div lass="input">
+          <div class="input">
             <label for="lastName">Sobrenome</label>
             <input
               type="text"
@@ -40,10 +40,10 @@
               required
             />
           </div>
-          <div lass="input">
+          <div class="input">
             <label for="email">E-mail</label>
             <input
-              type="text"
+              type="email"
               name="email"
               id="email"
               placeholder="Digite seu e-mail"
@@ -60,7 +60,7 @@
               required
             />
           </div>
-          <div>
+          <div class="input">
             <label for="password">Senha</label>
             <input
               type="password"
@@ -71,7 +71,7 @@
             />
           </div>
 
-          <div>
+          <div class="input">
             <label for="confirmPassword">Confirmar senha</label>
             <input
               type="password"
@@ -82,28 +82,27 @@
             />
           </div>
         </section>
-        <section class="genres">
+        <fieldset class="genres">
           <span>Gênero</span>
           <div class="genres-group">
             <label
-              ><input
-                type="radio"
-                name="genres"
-                value="female"
-              />Feminino</label
+              ><input type="radio" name="genres" value="female" />
+              Feminino</label
             >
             <label
-              ><input type="radio" name="genres" value="male" />Masculino</label
+              ><input type="radio" name="genres" value="male" />
+              Masculino</label
             >
             <label
-              ><input type="radio" name="genres" value="outhers" />Outros</label
+              ><input type="radio" name="genres" value="other" /> Outros</label
             >
             <label
-              ><input type="radio" name="genres" value="undefined" />Prefiro não
-              dizer</label
+              ><input type="radio" name="genres" value="undefined" /> Prefiro
+              não dizer</label
             >
           </div>
-        </section>
+        </fieldset>
+        <button class="continue">Continuar</button>
       </div>
     </div>
   </body>
