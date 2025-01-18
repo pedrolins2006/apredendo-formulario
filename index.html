@@ -15,94 +15,99 @@
         />
       </div>
       <div class="form">
-        <section class="form-header">
-          <h1>Cadastre-se</h1>
-          <div class="enter-btn"><a href="#">Entrar</a></div>
-        </section>
-        <section class="input-group">
-          <div class="input">
-            <label for="firstName">Primeiro Nome</label>
-            <input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="Digite seu primeiro nome"
-              required
-            />
-          </div>
-          <div class="input">
-            <label for="lastName">Sobrenome</label>
-            <input
-              type="text"
-              name="lastName"
-              id="lastName"
-              placeholder="Digite seu sobrenome"
-              required
-            />
-          </div>
-          <div class="input">
-            <label for="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Digite seu e-mail"
-              required
-            />
-          </div>
-          <div class="input">
-            <label for="number">Celular</label>
-            <input
-              type="tel"
-              name="number"
-              id="number"
-              placeholder="(XX) XXXX-XXXX"
-              required
-            />
-          </div>
-          <div class="input">
-            <label for="password">Senha</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Digite sua senha"
-              required
-            />
+        <form action="#">
+          <section class="form-header">
+            <h1>Cadastre-se</h1>
+            <div class="enter-btn"><a href="#">Entrar</a></div>
+          </section>
+
+          <div class="input-group">
+            <div class="input">
+              <label for="firstName">Primeiro Nome</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Digite seu primeiro nome"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="lastName">Sobrenome</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="number">Celular</label>
+              <input
+                type="tel"
+                name="number"
+                id="number"
+                placeholder="(XX) XXXX-XXXX"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="password">Senha</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Digite sua senha"
+                required
+              />
+            </div>
+
+            <div class="input">
+              <label for="confirmPassword">Confirmar senha</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                placeholder="Confirme sua senha"
+                required
+              />
+            </div>
           </div>
 
-          <div class="input">
-            <label for="confirmPassword">Confirmar senha</label>
-            <input
-              type="password"
-              name="confirmPassword"
-              id="confirmPassword"
-              placeholder="Confirme sua senha"
-              required
-            />
-          </div>
-        </section>
-        <fieldset class="genres">
-          <span>Gênero</span>
-          <div class="genres-group">
-            <label
-              ><input type="radio" name="genres" value="female" />
-              Feminino</label
-            >
-            <label
-              ><input type="radio" name="genres" value="male" />
-              Masculino</label
-            >
-            <label
-              ><input type="radio" name="genres" value="other" /> Outros</label
-            >
-            <label
-              ><input type="radio" name="genres" value="undefined" /> Prefiro
-              não dizer</label
-            >
-          </div>
-        </fieldset>
-        <button class="continue">Continuar</button>
+          <section class="genres">
+            <span>Gênero</span>
+            <fieldset class="genres-group">
+              <label
+                ><input type="radio" name="genres" value="female" />
+                Feminino</label
+              >
+              <label
+                ><input type="radio" name="genres" value="male" />
+                Masculino</label
+              >
+              <label
+                ><input type="radio" name="genres" value="other" />
+                Outros</label
+              >
+              <label
+                ><input type="radio" name="genres" value="undefined" /> Prefiro
+                não dizer</label
+              >
+            </fieldset>
+          </section>
+          <button class="continue">Continuar</button>
+        </form>
       </div>
     </div>
   </body>

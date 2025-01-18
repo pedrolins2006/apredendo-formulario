@@ -46,6 +46,10 @@ body {
   gap: 2rem;
 }
 
+fieldset {
+  border: none;
+}
+
 .form-header {
   display: flex;
   align-items: center;
@@ -90,6 +94,22 @@ h1 {
   cursor: pointer;
 }
 
+form {
+  width: 100%;
+  height: 54vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
 .input-group {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +139,7 @@ h1 {
 }
 
 ::placeholder {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #636262;
   padding-right: 2rem;
 }
@@ -143,7 +163,7 @@ h1 {
 .genres-group {
   padding-top: 0.5rem;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -182,5 +202,39 @@ h1 {
 
   .form {
     width: 100%;
+    border: 1px solid red;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  .container {
+    width: 90%;
+    height: auto;
+  }
+
+  .input-group {
+    padding-right: 5rem;
+    height: 10rem;
+    overflow-y: scroll;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .input:not(:first-child) {
+    padding-top: 1rem;
+  }
+
+  form,
+  .continue,
+  .genres {
+    width: 30vh;
+  }
+
+  .genres-group {
+    flex-direction: column;
+  }
+
+  .genres-group label {
+    padding: 0.5rem 0 0 0.5rem;
   }
 }
