@@ -1,7 +1,7 @@
 # Comments
 
     * colocar em prática os conhecimentos em HTML, CSS.
-    * projeto com responsivo.
+    * projeto com responsividade.
 
 # Challenge
 
@@ -10,6 +10,6 @@
       2° máximo de 1330px.
       3° acima de 1330px.
 
-# Website-Starbucks
+# Website-Form
 
 Prótipo pego no canal do Youtube <a href="https://www.youtube.com/watch?v=zWw0npNDkVM" target="_blank">Larissa Kich</a>!
